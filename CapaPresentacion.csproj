@@ -126,6 +126,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Registro\Ciclo.aspx" />
+    <Content Include="Registro\MenuSistema.aspx" />
     <Content Include="Registro\ReservaMatricula.aspx" />
     <Content Include="Registro\Servicio.aspx" />
     <Content Include="Registro\Turno.aspx" />
@@ -197,6 +198,13 @@
     </Compile>
     <Compile Include="Registro\Ciclo.aspx.designer.cs">
       <DependentUpon>Ciclo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\MenuSistema.aspx.cs">
+      <DependentUpon>MenuSistema.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registro\MenuSistema.aspx.designer.cs">
+      <DependentUpon>MenuSistema.aspx</DependentUpon>
     </Compile>
     <Compile Include="Registro\ReservaMatricula.aspx.cs">
       <DependentUpon>ReservaMatricula.aspx</DependentUpon>
