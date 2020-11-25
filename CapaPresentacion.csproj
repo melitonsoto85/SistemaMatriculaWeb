@@ -125,6 +125,10 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Registro\Ciclo.aspx" />
+    <Content Include="Registro\ReservaMatricula.aspx" />
+    <Content Include="Registro\Servicio.aspx" />
+    <Content Include="Registro\Turno.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -187,6 +191,34 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registro\Ciclo.aspx.cs">
+      <DependentUpon>Ciclo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registro\Ciclo.aspx.designer.cs">
+      <DependentUpon>Ciclo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\ReservaMatricula.aspx.cs">
+      <DependentUpon>ReservaMatricula.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registro\ReservaMatricula.aspx.designer.cs">
+      <DependentUpon>ReservaMatricula.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Servicio.aspx.cs">
+      <DependentUpon>Servicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registro\Servicio.aspx.designer.cs">
+      <DependentUpon>Servicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Turno.aspx.cs">
+      <DependentUpon>Turno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registro\Turno.aspx.designer.cs">
+      <DependentUpon>Turno.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
