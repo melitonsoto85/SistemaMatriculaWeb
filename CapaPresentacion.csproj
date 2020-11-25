@@ -129,6 +129,7 @@
     <Content Include="Registro\MenuSistema.aspx" />
     <Content Include="Registro\ReservaMatricula.aspx" />
     <Content Include="Registro\Servicio.aspx" />
+    <Content Include="Registro\TipoCurso.aspx" />
     <Content Include="Registro\Turno.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -219,6 +220,13 @@
     </Compile>
     <Compile Include="Registro\Servicio.aspx.designer.cs">
       <DependentUpon>Servicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\TipoCurso.aspx.cs">
+      <DependentUpon>TipoCurso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registro\TipoCurso.aspx.designer.cs">
+      <DependentUpon>TipoCurso.aspx</DependentUpon>
     </Compile>
     <Compile Include="Registro\Turno.aspx.cs">
       <DependentUpon>Turno.aspx</DependentUpon>
