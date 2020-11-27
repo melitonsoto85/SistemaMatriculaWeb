@@ -160,6 +160,19 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="Transa\Curso.aspx" />
+    <Content Include="Transa\DetServicio.aspx" />
+    <Content Include="Transa\Especialidad.aspx" />
+    <Content Include="Transa\Login.aspx" />
+    <Content Include="Transa\Matricula.aspx" />
+    <Content Include="Transa\Pago.aspx" />
+    <Content Include="Transa\Periodo.aspx" />
+    <Content Include="Transa\Persona.aspx" />
+    <Content Include="Transa\PlanEstudio.aspx" />
+    <Content Include="Transa\Rol.aspx" />
+    <Content Include="Transa\Servicio.aspx" />
+    <Content Include="Transa\TipoPersona.aspx" />
+    <Content Include="Transa\Usuario.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -248,6 +261,97 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Transa\Curso.aspx.cs">
+      <DependentUpon>Curso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transa\Curso.aspx.designer.cs">
+      <DependentUpon>Curso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transa\DetServicio.aspx.cs">
+      <DependentUpon>DetServicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transa\DetServicio.aspx.designer.cs">
+      <DependentUpon>DetServicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transa\Especialidad.aspx.cs">
+      <DependentUpon>Especialidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transa\Especialidad.aspx.designer.cs">
+      <DependentUpon>Especialidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transa\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transa\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transa\Matricula.aspx.cs">
+      <DependentUpon>Matricula.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transa\Matricula.aspx.designer.cs">
+      <DependentUpon>Matricula.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transa\Pago.aspx.cs">
+      <DependentUpon>Pago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transa\Pago.aspx.designer.cs">
+      <DependentUpon>Pago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transa\Periodo.aspx.cs">
+      <DependentUpon>Periodo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transa\Periodo.aspx.designer.cs">
+      <DependentUpon>Periodo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transa\Persona.aspx.cs">
+      <DependentUpon>Persona.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transa\Persona.aspx.designer.cs">
+      <DependentUpon>Persona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transa\PlanEstudio.aspx.cs">
+      <DependentUpon>PlanEstudio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transa\PlanEstudio.aspx.designer.cs">
+      <DependentUpon>PlanEstudio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transa\Rol.aspx.cs">
+      <DependentUpon>Rol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transa\Rol.aspx.designer.cs">
+      <DependentUpon>Rol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transa\Servicio.aspx.cs">
+      <DependentUpon>Servicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transa\Servicio.aspx.designer.cs">
+      <DependentUpon>Servicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transa\TipoPersona.aspx.cs">
+      <DependentUpon>TipoPersona.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transa\TipoPersona.aspx.designer.cs">
+      <DependentUpon>TipoPersona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transa\Usuario.aspx.cs">
+      <DependentUpon>Usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transa\Usuario.aspx.designer.cs">
+      <DependentUpon>Usuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
