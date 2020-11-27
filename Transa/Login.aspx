@@ -9,7 +9,30 @@
 <body>
     <h1>Bienvenidos</h1>
     <form id="form1" runat="server">
-      
+      <table>
+          <tr>
+              <td>
+                  Usuario:
+              </td>
+              <td>
+                  <asp:TextBox ID="TxtUsuario" runat="server"></asp:TextBox>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  Password:
+              </td>
+              <td>
+                  <asp:TextBox ID="TxtPassword" runat="server"></asp:TextBox>
+              </td>
+          </tr>
+      </table>
+        <asp:PasswordRecovery ID="PasswordRecovery1" runat="server">
+        </asp:PasswordRecovery>
+        <br />
+        <asp:Button ID="BtnIngresar" runat="server" Text="Ingresar" />
+        <asp:Button ID="BtnCancelar" runat="server" Text="Cancelar" />
+
     </form>
 </body>
 </html>
